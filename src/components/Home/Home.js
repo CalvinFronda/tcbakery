@@ -1,12 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-    Grid,
-    Box,
-    Container,
-    Select,
-    FormControl,
-    MenuItem,
-} from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import ImageContainer from './ImageContainer';
 

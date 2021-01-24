@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import aboutUsImage from './aboutUsImage.jpeg';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -45,8 +44,10 @@ const AboutUs = () => {
                 <Grid item md={6}>
                     <img
                         className={classes.image}
-                        src={aboutUsImage}
-                        alt="Picture of Calvin and Tiffany"
+                        src={
+                            'https://tcbakery.s3.us-west-1.amazonaws.com/about_Us_Image_1a71cec3a2.jpeg'
+                        }
+                        alt="Calvin and Tiffany"
                     />
                 </Grid>
                 <Grid item md={6}>
